@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-image: url("https://preview.ibb.co/dE917n/England_Colours.jpg");
+  background-size: 1100px 620px;
+  background-repeat: no-repeat;
+  max-width: 1500px;
+  margin: 0 auto;
+  color: #fff;
+}
+
+.row {
+  display: flex;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.col {
+  width: 33.33%;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+}
+
+img {
+  border-radius: 50%;
+  margin: 40px 0 10px 0;
+  height: 200px;
+  width: 200px;
+}
+
+h1 {
+  font-size: 25px;
+}
+
+.description {
+  font-size: 13px;
+  margin: 10px 30px 20px 30px;
+  line-height: 1.6;
+}
+
+.city {
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+
+@media only screen and (max-width: 720px) {
+  img {
+    height: 100px;
+    width: 100px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+}
