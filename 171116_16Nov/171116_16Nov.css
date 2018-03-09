@@ -1,0 +1,149 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font: normal 1em/1.2 "Open Sans", Arial, sans-serif;
+}
+
+.panelFrame {
+  width: 500px;
+  background-color: #263238;
+  padding: 30px;
+  box-shadow: 3px 3px 15px #9e9e9e;
+}
+
+.wrapper {
+  height: 100%;
+}
+
+.clearFloat {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.ctaButtons {
+  color: #b0bec5;
+  text-align: center;
+  width: 50%;
+  padding: 20px 0;
+  background-color: #43525a;
+  float: left;
+
+  -webkit-transition: 0.2s ease-in-out;
+  -moz-transition: 0.2s ease-in-out;
+  -o-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+
+.notSelected:hover {
+  background-color: #00796b;
+  color: #eeeeee;
+  cursor: pointer;
+}
+
+.selectedButton {
+  background-color: #1ab188;
+  color: #fff;
+}
+
+h1 {
+  color: #fff;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 100;
+  margin: 30px 0 0;
+}
+
+input {
+  width: 100%;
+  background-color: #263238;
+  border: 1px solid #a0b3b0;
+  padding: 10px;
+  font-size: 1rem;
+  color: #fff;
+  margin-top: 30px;
+}
+
+input:focus {
+  border-color: #1ab188;
+  outline: 0 none;
+}
+
+::-webkit-input-placeholder {
+  /* Chrome */
+  color: #a0b3b0;
+}
+:-ms-input-placeholder {
+  /* IE 10+ */
+  color: #a0b3b0;
+}
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #a0b3b0;
+  opacity: 1;
+}
+:-moz-placeholder {
+  /* Firefox 4 - 18 */
+  color: #a0b3b0;
+  opacity: 1;
+}
+
+.forgotPass {
+  color: #1ab188;
+  text-align: right;
+  font-size: 0.8rem;
+
+  -webkit-transition: 0.2s ease-in-out;
+  -moz-transition: 0.2s ease-in-out;
+  -o-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+
+.forgotPass:hover {
+  color: #fff;
+  cursor: pointer;
+}
+
+.submit {
+  width: 100%;
+  font-size: 1rem;
+  background-color: #1ab188;
+  color: #eeeeee;
+  border: none;
+  padding: 20px 0;
+  border: 1px solid #00796b;
+
+  -webkit-transition: 0.2s ease-in-out;
+  -moz-transition: 0.2s ease-in-out;
+  -o-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+
+.submit:hover {
+  background-color: #00bfa5;
+  border-color: #00bfa5;
+  color: #fff;
+  cursor: pointer;
+}
+
+.submit:focus {
+  border-color: #00bfa5;
+  outline: 0 none;
+}
+
+#firstName {
+  width: calc(50% - 15px);
+  display: inline;
+}
+
+#lastName {
+  width: calc(50% - 15px);
+  display: inline;
+  float: right;
+}
+
+.signUpSubmit {
+  margin-top: 30px;
+}
