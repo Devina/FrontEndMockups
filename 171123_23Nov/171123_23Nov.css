@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 16px;
+  color: #fff;
+}
+
+body, html {
+  background-color: rgb(214, 214, 214);
+}
+
+.container {
+  width: 350px;
+  height: 535px;
+  margin: 35px auto;
+  border-radius: 10px;
+  background-color: #fff;
+  text-align: center;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), -28px 0 25px -23px rgba(0, 0, 0, 0.8), 28px 0 25px -23px rgba(0, 0, 0, 0.8), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+.parallax {
+  height: 375px;
+  background-image: url("https://image.ibb.co/mQhnZm/jkrowling.jpg");
+  background-attachment: scroll;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.parallax h1 {
+  font-size: 1.8rem;
+  line-height: 1.8rem;
+}
+
+.parallax h2 {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+  font-weight: 300;
+}
+
+.parallax button {
+  font-size: 2rem;
+  line-height: 2rem;
+  width: 60px;
+  height: 60px;
+  align-self: center;
+  border: none;
+  border-radius: 50%;
+  padding: 5px;
+  background: linear-gradient(rgb(244, 60, 124), rgb(245, 102, 86));
+  box-shadow: 4px 4px 16px 9px rgba(244, 60, 124, 0.2);
+  margin-bottom: -30px;
+}
+
+.parallax button[type="button"]:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: all 0.8s ease;
+}
+
+.parallax button[type="button"]:not(:hover) {
+  transition: all 0.8s ease;
+}
+
+.social {
+  display: flex;
+  height: 160px;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.inner-social h3 {
+  font-size: 1rem;
+  font-weight: 300;
+  color: rgb(193, 190, 191);
+}
+
+.inner-social p {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: rgb(104, 104, 104);
+}
