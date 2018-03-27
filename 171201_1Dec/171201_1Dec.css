@@ -1,0 +1,153 @@
+body {
+  margin: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+#topHeader {
+  box-sizing: border-box;
+  width: 100%;
+  height: 200px;
+  background-color: #323232;
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+  align-items: center;
+  padding: 20px 10%;
+}
+
+.tagLine {
+  text-transform: uppercase;
+  font-size: 14px;
+  margin-top: 0;
+}
+
+#contact {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+#phone {
+  display: flex;
+  justify-content: space-around;
+  margin:auto;
+}
+
+#mail {
+  display: flex;
+  justify-content: space-around;
+  margin:auto;
+}
+
+#phone .fa, #mail .fa {
+  margin-right: 10px;
+  margin-top: 8px;
+}
+
+.toggle-nav {
+  display: none;
+}
+
+nav span, .fa-fire {
+  color: rgb(240, 100, 8);
+  margin-left: 0px;
+}
+
+nav h2 {
+  font-weight: normal;
+}
+
+nav h4 {
+  color: #aba8ad;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  padding: 0 10%;
+  box-sizing: border-box;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
+  border-radius: 3px;
+  background: #f2f2f2;
+}
+
+.menu ul {
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-grow: 1;
+  color: rgb(139, 138, 138);
+}
+
+.menu div {
+  display: flex;
+  align-items: center;
+}
+
+.menu li {
+  color: #aba8ad;
+  padding-right: 10px;
+  font-weight: 400;
+  list-style-type: none;
+}
+
+.menu li:after {
+  content: "/";
+}
+
+.menu li:last-child {
+  content: "";
+}
+
+.menu li a:hover {
+  color: rgb(240, 100, 8);
+}
+
+.active {
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 860px) {
+  .menu {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .menu a {
+    display: block;
+  }
+
+  .toggle-nav {
+    padding: 20px;
+    float: right;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
+    border-radius: 3px;
+    background: rgb(230, 225, 225);
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.5);
+    color: rgb(139, 138, 138);
+    font-size: 20px;
+    transition: color linear 0.15s;
+  }
+}
+
+.menu li a {
+  color: #aba8ad;
+  padding-right: 10px;
+  font-weight: 400;
+  list-style-type: none;
+  text-decoration: none;
+}
+.menu li:after {
+  content: "/";
+}
+.menu li:last-child:after {
+  content: "";
+}
