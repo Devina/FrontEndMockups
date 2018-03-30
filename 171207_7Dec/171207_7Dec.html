@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Daily Code Challenge: 7 December 2017</title>
+  <link rel="stylesheet" href="./171207_7Dec.css" style="text/css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="./171207_7Dec.js"></script>
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 offset-2 product-checkout">
+        <div class="inside-product-checkout">
+          <table>
+            <tr>
+              <th>Product</th>
+              <th>Quantity</th>
+              <th>Price</th>
+              <th></th>
+            </tr>
+            <tr>
+              <td>
+                <h4>Product Name</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur...</p>
+              </td>
+              <td>
+                <input type="number" id="product-one" name="quantity" min="1" max="5" value="1">
+              </td>
+              <td>
+                $<div id="value-product-one">10.00</div>
+              </td>
+              <td><i class="fa fa-times" aria-hidden="true"></i></td>
+            </tr>
+            <tr>
+              <td>
+                <h4>Product Name</h4>
+                <p>Lorem ipsum dolor sit amet</p>
+              </td>
+              <td>
+                <input type="number" id="product-two" name="quantity" min="1" max="5" value="1">
+              </td>
+              <td>
+                $<div id="value-product-two">19.00</div>
+              </td>
+              <td><i class="fa fa-times" aria-hidden="true"></i></td>
+            </tr>
+            <tr>
+              <td>
+                <select name="mailtype" id="select-mail">
+                  <option id="mail-one" value="3.49">AirMail ($3.49)</option>
+                  <option id="mail-two" value="5.49">AirMail First Class ($5.49)</option>
+                  <option id="mail-three" value="7.00">AirMail Express ($7.00)</option>
+                </select>
+              </td>
+              <td><span id="total-items">3</span> Items</td>
+              <td><span class="total">Total: &nbsp;</span>$
+                <div id="price-total">42.49</div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <button class="btn btn-update">
+                  Update
+                </button>
+              </td>
+              <td colspan="2">
+                <button class="btn btn-checkout">
+                  Checkout
+                </button>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
