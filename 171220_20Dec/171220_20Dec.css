@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+.full-website {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.pexels.com/photos/53510/head-details-otter-close-up-53510.jpeg?w=1260&h=750&dpr=2&auto=compress&cs=tinysrgb") no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.main-header {
+  background: #26272b;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 10px 15%;
+}
+
+.main-header a {
+  color: #a6a6a6;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+.main-header a:hover {
+  color: #99bf00;
+}
+
+.user-panel {
+  text-align: right;
+}
+
+.fa-user,
+.fa-sign-in-alt {
+  margin: 0 5px;
+}
+
+.main-nav {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  padding: 40px 15%;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.nav-items {
+  text-align: right;
+  list-style: none;
+  justify-self: end;
+}
+
+.nav-items li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.nav-items a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-items a:hover {
+  color: #99bf00;
+}
+
+.dropdown-content {
+  position: absolute;
+  display: none;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  display: block;
+  padding: 10px 20px;
+  background: #26272b;
+}
+
+.dropdown-menu:hover .dropdown-content {
+  display: block;
+}
+
+.nav-items .no-desktop {
+  display: none;
+}
+
+.main-content {
+  width: 100%;
+  padding: 300px 15%;
+  color: #fff;
+  text-align: right;
+}
+
+.content-title h2 {
+  font-size: 2.5em;
+  text-transform: uppercase;
+}
+
+.links {
+  margin: 60px 0 0 0;
+}
+
+.links a {
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  border: 2px solid #fff;
+  padding: 15px 25px;
+  display: inline-block;
+  margin: 0 0 10px 0;
+  width: auto;
+}
+
+.links a:hover {
+  border-color: #a3bf00;
+  background: #a3bf00;
+}
+
+@media screen and (max-width: 1024px) {
+  .main-nav {
+    padding: 40px 2%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .main-header {
+    padding: 10px 2%;
+  }
+
+  .nav-items li {
+    display: none;
+  }
+
+  .nav-items.responsive-menu {
+    position: relative;
+  }
+
+  .nav-items .main-dropdown-menu {
+    display: inline-block;
+    font-size: 2em;
+  }
+
+  .nav-items.responsive-menu li {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .main-header {
+    grid-template-columns: 2fr 1fr;
+  }
+
+  .no-responsive {
+    display: none;
+  }
+}
