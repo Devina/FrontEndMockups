@@ -1,0 +1,67 @@
+html {
+  background-color: #000;
+  text-align: center;
+  color: #fff;
+}
+
+.container {
+  background: url("https://preview.ibb.co/cSNUh6/shutterstock_140881393.jpg") center/cover no-repeat;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.text {
+  background: rgba(231, 33, 14, 0.87);
+  padding: 10px;
+}
+
+h3 {
+  font-family: "Pacifico", cursive;
+  font-size: 30px;
+  margin: 10px;
+}
+
+h1 {
+  font-size: 100px;
+  margin: 0;
+}
+
+.box {
+  padding: 20px 10px 10px;
+  border: 1px solid #fff;
+  width: 50%;
+  margin: 10px auto;
+  font-size: 20px;
+}
+
+.end {
+  font-size: 12px;
+  margin: 50px;
+}
+
+sub {
+  vertical-align: bottom;
+  font-size: 0.8em;
+}
+
+.footer {
+  background: #fff;
+  height: 60px;
+  position: relative;
+}
+
+.bells {
+  position: absolute;
+  height: 85px;
+  margin: 0 auto;
+  left: 550px;
+  bottom: 30px;
+}
+
+.santa {
+  display: block;
+  position: absolute;
+  height: 230px;
+  right: 70px;
+  bottom: 10px;
+}
