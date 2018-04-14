@@ -1,0 +1,197 @@
+body {
+  background-color: #f8f0e1;
+  font-family: "Open Sans", sans-serif;
+  color: #bb2c5c;
+}
+
+#hello-word {
+  font-size: 125px;
+  text-align: center;
+  font-weight: 800;
+  letter-spacing: -2px;
+  color: #bb2c5c;
+}
+
+h3 {
+  font-size: 48px;
+  font-weight: 800;
+  padding-top: 100px;
+}
+
+h4 {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+h5 {
+  color: #bb2c5c;
+  font-size: 38px;
+  font-weight: 800;
+}
+
+button {
+  background-color: #bb2c5c;
+  border: none;
+  color: #fff;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 600;
+  transition-duration: 0.5s;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #912048;
+}
+
+.article-text {
+  color: #000;
+  box-sizing: border-box;
+  font-size: 24px;
+}
+
+.block-space {
+  padding-top: 30px;
+}
+
+.big-block-space {
+  padding-top: 90px;
+}
+
+#header-bar {
+  padding-top: 40px;
+  box-sizing: border-box;
+  min-height: 150px;
+  position: sticky;
+  top: -1px;
+  z-index: 100;
+  background-color: #f8f0e1;
+}
+
+.logo img {
+  transition-duration: 0.7s;
+  width: 100%;
+  height: auto;
+}
+
+.logo img:hover {
+  width: 105%;
+}
+
+#main-menu ul {
+  list-style-type: none;
+}
+
+#main-menu li {
+  float: left;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+}
+
+#main-menu li a {
+  color: #bb2c5c;
+  font-size: 24px;
+  font-weight: 700;
+  transition-duration: 0.5s;
+  letter-spacing: 1px;
+}
+
+#main-menu li i {
+  font-size: 22px;
+  font-weight: 700;
+  transition-duration: 0.5s;
+}
+
+#main-menu li i:hover {
+  font-size: 30px;
+}
+
+#site-wallpaper {
+  width: 100%;
+  height: 250px;
+  background-image: url("https://www.sydneynewyearseve.com/assets/img/branding-strip.png");
+  background-size: 100% 100%;
+}
+
+.hello-container {
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.big-p {
+  font-size: 40px;
+  font-weight: 800;
+  text-rendering: optimizeLegibility;
+  text-align: center;
+  color: #bb2c5c;
+}
+
+.article-image img {
+  width: 100%;
+  height: auto;
+}
+
+#footer {
+  background-color: #211c5b;
+  min-height: 60vh;
+  color: #fff;
+}
+
+.rights {
+  text-align: center;
+  color: #fff;
+}
+
+.rights:hover {
+  color: #bb2c5c;
+}
+
+#footer ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#footer ul a {
+  color: #fff;
+  font-size: 18px;
+}
+
+#footer ul a:hover {
+  color: #bb2c5c;
+}
+
+#footer ul li {
+  padding-top: 15px;
+}
+
+#footer p {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+#footer i {
+  color: #000;
+  padding: 10px 15px 10px 15px;
+  margin: 0 10px 0 10px;
+  background-color: #fff;
+  border-radius: 100%;
+  font-size: 18px;
+  transition-duration: 0.5s;
+  float: left;
+}
+
+#footer i:hover {
+  background-color: #bb2c5c;
+  cursor: pointer;
+}
+
+#happy-ny {
+  font-size: 72px;
+  font-weight: 800;
+}
