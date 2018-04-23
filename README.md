@@ -4,7 +4,7 @@ This repository contains content created as part of Daily Code Challenges on the
 
 Prototype images were provided. HTML/CSS/JS was used to create these mockups.
 
-The section below link the forum thread of the challenge along with comments/hints/tip provided.
+The section below link the forum thread of the challenge along with comments/hints/tip provided on the thread starter post.
 
 --- 
 13 Nov:
