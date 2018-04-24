@@ -192,6 +192,8 @@ https://discussions.udacity.com/t/daily-code-challenge-6-1/509312
 https://discussions.udacity.com/t/daily-code-challenge-8-1/511130
 * Make side menu like this
 
+_(This was the same as 16<sup>th</sup> December Challenge)_
+
 ---
 10 Jan:
 https://discussions.udacity.com/t/daily-code-challenge-10-1-1-portfolio/515840
