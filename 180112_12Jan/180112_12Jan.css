@@ -1,0 +1,280 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  font-family: "Lato", sans-serif;
+  font-weight: 300px;
+  font-size: 20px;
+  color: #333;
+}
+
+header,
+section {
+  text-align: center;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+section {
+  padding: 30px 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Inconsolata", monospace;
+  text-transform: uppercase;
+}
+
+.portfolio h2,
+.blog-link a,
+.navigation li:hover a,
+.color {
+  background: linear-gradient(90deg, #ee0979, #ff6a00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.menu-icon:hover,
+.scroll-icon:hover {
+  cursor: pointer;
+}
+
+.scroll-icon,
+.experience-icon {
+  font-size: 150%;
+}
+
+.about {
+  background-color: #e9eaf2;
+  height: auto;
+}
+
+header {
+  background: linear-gradient(rgba(17, 20, 42, 0.95), rgba(17, 20, 42, 0.95)), url("https://images.pexels.com/photos/7041/pexels-photo.jpeg") center;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #fff;
+  text-transform: uppercase;
+  height: 100vh;
+}
+
+nav {
+  text-align: left;
+  padding: 20px;
+}
+
+.menu-icon {
+  font-size: 180%;
+}
+
+nav p {
+  font-size: 44%;
+  font-weight: 700;
+}
+
+.navigation {
+  visibility: hidden;
+  position: relative;
+  list-style: none;
+  margin-top: 20px;
+  width: 120px;
+  background: rgba(14, 17, 34, 0.7);
+  z-index: 1;
+}
+.navigation li {
+  padding: 8px 10px;
+  transition: background-color, padding-left 0.4s;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 70%;
+  transition: color 0.4s;
+}
+
+.navigation li:hover {
+  cursor: pointer;
+  padding-left: 15px;
+  background: rgba(14, 17, 34, 1);
+}
+
+.main-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  background: linear-gradient(90deg, #ee0979, #ff6a00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.title {
+  padding-bottom: 15px;
+  font-size: 320%;
+  text-transform: capitalize;
+}
+
+.title-description {
+  font-size: 90%;
+}
+
+.scroll-down {
+  margin: 20px 0 30px;
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.scroll-text {
+  margin-bottom: 10px;
+  font-size: 60%;
+}
+
+.profile-pic {
+  width: 320px;
+  margin: 50px 0;
+}
+
+.description {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 40px 15px;
+  line-height: 1.8;
+  font-size: 85%;
+}
+
+.blog-link {
+  padding-top: 20px;
+}
+
+.blog-link a {
+  text-decoration: none;
+}
+
+.experience-top {
+  padding: 40px 0 25px;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  padding-bottom: 25px;
+}
+
+.experience-box {
+  padding: 25px 0;
+  width: 50%;
+  min-width: 320px;
+  text-align: center;
+}
+
+.experience-box p {
+  margin: 0 auto;
+  width: 80%;
+  font-size: 85%;
+}
+
+.experience-icon {
+  font-size: 200%;
+}
+
+.experience-title {
+  padding: 20px 0;
+}
+
+.portfolio {
+  background: linear-gradient(rgba(17, 20, 42, 0.95), rgba(17, 20, 42, 0.95));
+  color: #fff;
+  padding-bottom: 40px;
+}
+
+.portfolio h2 {
+  padding: 20px 0 40px;
+}
+
+.portfolio-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin: 0 40px;
+  text-align: left;
+}
+
+.companies {
+  padding-top: 20px;
+  width: 64%;
+}
+
+.skills {
+  padding-top: 20px;
+  width: 34%;
+}
+
+.portfolio h4 {
+  padding: 15px;
+  font-weight: 400;
+}
+
+.portfolio p {
+  padding: 0 15px 25px;
+  font-size: 70%;
+}
+
+.skills p {
+  padding: 8px 15px;
+}
+
+.skills h4,
+.skills p:nth-child(odd),
+.portfolio-box:nth-child(even) {
+  background: linear-gradient(rgba(17, 20, 42, 0.95), rgba(17, 20, 42, 0.95));
+}
+
+.skills p:nth-child(even),
+.portfolio-box:nth-child(odd) {
+  background: linear-gradient(rgba(255, 255, 255, 0.02), rgba(255, 255, 255, 0.02));
+}
+
+@media only screen and (max-width: 676px) {
+  .experience-box p {
+    width: 95%;
+    font-size: 85%;
+  }
+
+  .companies,
+  .skills {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  body {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  body {
+    font-size: 16px;
+  }
+}
