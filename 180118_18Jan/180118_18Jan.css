@@ -1,0 +1,427 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Muli", sans-serif;
+  color: #2e3133;
+  letter-spacing: 2.5px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+li {
+  list-style: none;
+}
+
+p {
+  font-size: 16px;
+}
+
+img {
+  max-width: 100%;
+}
+
+#nav-progress-bar {
+  display: inline-block;
+  position: fixed;
+  right: 50px;
+  z-index: 10;
+  top: 50%;
+  margin-top: -80px;
+}
+
+.nav-progress-item {
+  display: block;
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+  border: 1px solid #2e3133;
+  transition: opacity 0.2s;
+  margin: 15px 0;
+  border-radius: 50%;
+}
+
+.in-view {
+  background-color: #2e3133;
+}
+
+section:first-of-type {
+  height: 100vh;
+  background-image: url(https://images.pexels.com/photos/93405/pexels-photo-93405.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  padding-top: 80px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+}
+
+.header p {
+  font-weight: 900;
+  font-size: 20px;
+}
+
+.menu {
+  display: flex;
+}
+
+.menu li {
+  padding: 0 20px;
+}
+
+.title {
+  margin: auto;
+  text-align: center;
+}
+
+.title h1 {
+  font-size: 65px;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+.title p {
+  font-size: 30px;
+}
+
+section:nth-of-type(2) {
+  display: flex;
+  background-color: #f9fcfb;
+}
+
+section:nth-of-type(2) > div {
+  flex: 1;
+}
+
+.about-us {
+  margin: auto;
+  padding: 80px 0 50px 80px;
+}
+
+.office-image {
+  background: linear-gradient(rgba(249, 252, 251, 0.5), rgba(157,182,224, 0.5)), url(https://images.pexels.com/photos/60740/pexels-photo-60740.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about-us h2 {
+  text-align: right;
+  font-size: 45px;
+  font-weight: 100;
+  margin-bottom: 50px;
+  width: 60%;
+  word-wrap: break-word;
+}
+
+.about-us p {
+  margin-bottom: 30px;
+  width: 60%;
+  word-wrap: break-word;
+  text-align: right;
+}
+
+.btn-space {
+  width: 60%;
+  text-align: right;
+}
+
+button {
+  margin-top: 20px;
+  border: 1px solid #2e3133;
+  color: inherit;
+  font-size: inherit;
+  font-family: inherit;
+  padding: 10px 20px;
+  background-color: transparent;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  outline: none;
+}
+
+button:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 100%;
+  right: 0;
+  bottom: 0;
+  background: #9db6e0;
+  height: 4px;
+  -webkit-transition-property: left;
+  transition-property: left;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+
+button:hover:before,
+button:focus:before,
+button:active:before {
+  left: 0;
+}
+
+section:nth-of-type(3) {
+  display: flex;
+  flex-direction: column;
+  background-color: #9db6e0;
+  color: #2e3133;
+}
+
+.offers-title {
+  font-size: 45px;
+  font-weight: 100;
+  margin: auto;
+  padding: 80px 0;
+}
+
+.offers-container {
+  width: 80%;
+  margin: auto;
+  padding-bottom: 80px;
+}
+
+.offers-row {
+  display: flex;
+  border-bottom: 1px solid #2e3133;
+}
+
+.offers-row:last-of-type {
+  border-bottom: 0px solid #2e3133;
+}
+
+.offers-item {
+  text-align: center;
+  flex: 1;
+  border-right: 1px solid #2e3133;
+}
+
+.offers-item:last-of-type {
+  border-right: 0px solid #2e3133;
+}
+
+.offers-item .fa {
+  padding: 40px 20px 20px 20px;
+}
+
+.offers-item p {
+  padding-bottom: 40px;
+}
+
+section:nth-of-type(4) {
+  background: linear-gradient(rgba(157,182,224, 0.7), rgba(249, 252, 251, 0.7)), url(https://images.pexels.com/photos/315638/pexels-photo-315638.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  display: flex;
+}
+
+section:nth-of-type(4) > div {
+  flex: 1;
+}
+
+.cases-text {
+  margin: auto 0;
+  padding-left: 80px;
+  width: 60%;
+}
+
+.cases-text h2 {
+  font-size: 45px;
+  font-weight: 100;
+}
+
+.cases-text p {
+  font-size: 14px;
+  width: 60%;
+  margin: 20px 0;
+}
+
+.mobile-phone-pic {
+  margin: auto;
+  width: 350px;
+  height: 350px;
+}
+
+.mobile-phone-pic img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+@media only screen and (max-width: 1024px) {
+  .about-us h2,
+  .about-us p,
+  .btn-space {
+    width: 80%;
+  }
+
+  .mobile-phone-pic {
+    padding-left: 100px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .about-us {
+    padding-left: 30px;
+  }
+
+  .mobile-phone-pic {
+    padding-left: 60px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  section:nth-of-type(2) {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .about-us {
+    padding: 40px 30px;
+  }
+
+  .mobile-phone-pic {
+    padding-left: 0px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .title h1 {
+    font-size: 50px;
+  }
+
+  .title p {
+    font-size: 25px;
+  }
+
+  .offers-container {
+    width: 75%;
+  }
+
+  .offers-row {
+    flex-wrap: wrap;
+    border-bottom: none;
+  }
+
+  .offers-item {
+    flex: auto;
+    border-right: none;
+    margin: 0 5px 5px 0;
+    background-color: rgba(157,182,224, 0.1);
+  }
+
+  .item-no-show {
+    display: none;
+  }
+
+  .mobile-phone-pic {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .title h1 {
+    font-size: 44px;
+  }
+
+  .title p {
+    font-size: 20px;
+  }
+
+  .about-us h2,
+  .cases-text h2,
+  .offers-title {
+    font-size: 40px;
+  }
+
+  .nav-progress-bar {
+    right: 30px;
+  }
+
+  .about-us {
+    width: 90%;
+  }
+
+  .mobile-phone-pic {
+    width: 250px;
+    height: 250px;
+  }
+
+  .cases-text p {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .about-us {
+    width: 100%;
+  }
+  .menu {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .menu li {
+    padding: 10px 20px;
+    background-color: rgba(77, 83, 94, 0.3);
+    transition: 0.4s;
+  }
+
+  .menu li:hover {
+    background-color: rgba(157, 182, 224, 0.3);
+  }
+
+  .title h1 {
+    font-size: 36px;
+  }
+
+  .title p {
+    font-size: 20px;
+  }
+
+  .offers-container {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .title h1 {
+    font-size: 25px;
+  }
+  
+  .title p {
+    font-size: 18px;
+  }
+
+  .about-us h2,
+  .cases-text h2,
+  .offers-title {
+    font-size: 30px;
+  }
+
+  .cases-text {
+    padding-left: 40px;
+  }
+
+  .mobile-phone-pic {
+    width: 200px;
+    height: 200px;
+  }
+}
