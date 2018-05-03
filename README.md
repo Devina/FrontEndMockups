@@ -6,6 +6,8 @@ Prototype images were provided. HTML/CSS/JS was used to create these mockups.
 
 The section below link the forum thread of the challenge along with comments/hints/tip provided on the thread starter post.
 
+With the prototype images (which are present in the dated folders), the mockups were created and added to folders with the date corresponding to the challenge date. An index file which links to all the separate mockup pages is also created. This provides direct link to the programmed mockups.
+
 --- 
 13 Nov:
 https://discussions.udacity.com/t/daily-code-challenge-13-11/446626 
